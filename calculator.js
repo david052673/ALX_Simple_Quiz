@@ -36,7 +36,7 @@ document.getElementById('multiply').addEventListener('click', function() {
 });
 
 function divide(number1, number2) {
-    return number1 + number2;
+    return number1 / number2;
 }
 
 document.getElementById('divide').addEventListener('click', function() {
