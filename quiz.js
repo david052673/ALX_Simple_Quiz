@@ -15,4 +15,4 @@ let feedback = document.querySelector("feedback");
 }
 
 const SubmitAnswer= document.getElementById("submit-answer");
-SubmitAnswer.addEventListener("click")
+SubmitAnswer.addEventListener("click",function())
