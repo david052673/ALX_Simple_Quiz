@@ -8,7 +8,7 @@ let value = document.querySelector ("quiz");
 let userAnswer = value
 
 let feedback = document.getElementById("feedback");
-if("userAnswer===correctAnswer"){
+["if(userAnswer===correctAnswer)"]{
    feedback="Correct!Well done"
 }else{
     feedback="That's incorrect. Try again"
