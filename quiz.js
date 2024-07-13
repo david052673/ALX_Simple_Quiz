@@ -7,7 +7,7 @@ document.querySelector ('input[name="quiz"]:checked').value;
 let value = document.querySelector ("quiz");
 let userAnswer = value
 
-let feedback = document.getElementById("feedback");
+let feedback = document.querySelector("feedback");
 ["if (userAnswer === correctAnswer)"]{
    feedback=["Correct! Well done."]
 }["else"]{
