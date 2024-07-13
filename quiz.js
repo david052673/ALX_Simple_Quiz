@@ -11,7 +11,7 @@ let feedback = document.querySelector("feedback");
 ["if (userAnswer === correctAnswer)"]{
    feedback=["Correct! Well done."]
 }["else"]{
-    feedback="That's incorrect. Try again"
+    feedback=["That's incorrect. Try again!"]
 }
 
 const SubmitAnswer= document.getElementById("submit-answer");
