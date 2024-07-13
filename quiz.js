@@ -2,7 +2,8 @@ function checkAnswer(correctanswer=4) {
     // Function body
 };
 
-document.querySelector ("quiz");
+const useranswer=
+document.querySelector ('input[name="quiz"]:checked').value;
 let value = document.querySelector ("quiz");
 let userAnswer = value
 
@@ -13,4 +14,5 @@ if("userAnswer==correctAnswer"){
     feedback="That's incorrect. Try again"
 }
 
-let SubmitAnswer= document.getElementById("submit-answer")
+const SubmitAnswer= document.getElementById("submit-answer");
+SubmitAnswer.addEventListener("click")
